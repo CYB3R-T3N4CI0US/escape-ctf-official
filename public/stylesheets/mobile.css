@@ -46,6 +46,28 @@ body {
     .image {
         display: none;
     }
+
+    .mobile {
+        display: flex;
+    }
+
+    .center {
+        text-align: center;
+        margin-top: 80%;
+        transform: translateY(-50%);
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .mo-left {
+        display: block;
+    }
+
+    .container {
+        margin-top: 10em;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

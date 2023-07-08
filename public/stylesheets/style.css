@@ -127,6 +127,10 @@ a {
   transform: translate(-50%, -50%);
 }
 
+.check {
+  display: none;
+}
+
 .world-line {
   position: absolute;
   top: 15px;
