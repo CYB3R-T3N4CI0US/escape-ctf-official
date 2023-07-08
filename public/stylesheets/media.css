@@ -27,16 +27,13 @@
         right: 1rem;
     }
 
-    .check {
+    .content p {
         font-size: 14px;
         width: 330px;
         display: block;
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    .content p {
         top: 60%;
         text-align: center;
     }
