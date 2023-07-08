@@ -38,3 +38,12 @@
         text-align: center;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content button {
+        position: absolute;
+        left: 50%;
+        top: 2em;
+        transform: translate(-50%, -50%);
+    }
+}
