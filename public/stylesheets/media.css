@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .world-line, .image, .content img, 
     .right-content h1, .right-content h2, .right-content p,
-    .read, .sec-container, .th-container, .escape_footer {
+    .read, .sec-container, .th-container, .escape_footer, .content button {
         display: none;
     }
     
@@ -11,12 +11,6 @@
         position: absolute;
         font-size: 30px;
         text-align: center;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .content button {
-        position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -34,16 +28,7 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        top: 35em;
+        top: 30em;
         text-align: center;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .content button {
-        position: absolute;
-        left: 50%;
-        top: 2em;
-        transform: translate(-50%, -50%);
     }
 }
